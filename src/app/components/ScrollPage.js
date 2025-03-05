@@ -8,6 +8,8 @@ const ScrollPage = () => {
 
   // Handle Scroll
   useEffect(() => {
+    if (typeof window === "undefined") return; // Ensure it runs only on the client
+
     const handleScroll = () => {
       const scrolled = window.scrollY;
       const maxScroll =
