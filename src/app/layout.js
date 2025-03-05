@@ -1,4 +1,6 @@
 import { Geist, Geist_Mono } from "next/font/google";
+// import "rsuite/dist/rsuite-no-reset.min.css";
+import "rsuite/dist/rsuite.min.css";
 import "./globals.css";
 
 const geistSans = Geist({
