@@ -9,7 +9,6 @@ import WbFooter from "../components/WbFooter";
 import { motion } from "motion/react";
 // import consultationImage1 from "/images/consultation2.jpeg";
 // import { useServerLink } from "../context/server.context";
-import Link from "next/link";
 import { useEffect } from "react";
 
 export default function SolarRecyclingPage() {
@@ -30,7 +29,7 @@ export default function SolarRecyclingPage() {
           <h1>Solar Recycling</h1>
         </div>
         <Breadcrumb className="bc-content">
-          <Breadcrumb.Item as={Link} href={`/`} className="bc-non-active">
+          <Breadcrumb.Item href="/" className="bc-non-active">
             Home
           </Breadcrumb.Item>
           <Breadcrumb.Item active className="bc-active">

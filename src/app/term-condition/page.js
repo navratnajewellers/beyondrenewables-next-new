@@ -6,7 +6,6 @@ import WbHeader from "../components/WbHeader";
 import WbFooter from "../components/WbFooter";
 // import { useServerLink } from "../context/server.context";
 import { useEffect } from "react";
-import Link from "next/link";
 
 export default function TermConditionPage() {
   useEffect(() => {
@@ -26,7 +25,7 @@ export default function TermConditionPage() {
           <h1>Term & Condition</h1>
         </div>
         <Breadcrumb className="bc-content">
-          <Breadcrumb.Item as={Link} href={`/`} className="bc-non-active">
+          <Breadcrumb.Item href="/" className="bc-non-active">
             Home
           </Breadcrumb.Item>
           <Breadcrumb.Item active className="bc-active">

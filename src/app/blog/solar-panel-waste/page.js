@@ -31,7 +31,7 @@ export default function Blog1Page() {
           <h1>Solar Panel Waste: Numbers and Nuisance</h1>
         </div>
         <Breadcrumb className="bc-content">
-          <Breadcrumb.Item href={`/`} className="bc-non-active">
+          <Breadcrumb.Item href="/" className="bc-non-active">
             Home
           </Breadcrumb.Item>
           <Breadcrumb.Item active className="bc-active">

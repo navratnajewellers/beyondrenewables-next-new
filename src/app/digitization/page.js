@@ -7,7 +7,6 @@ import "../styles/solarDigitization.css";
 import WbFooter from "../components/WbFooter";
 import { motion } from "motion/react";
 import { useEffect } from "react";
-import Link from "next/link";
 // import { useServerLink } from "../context/server.context";
 
 export default function DigitizationPage() {
@@ -28,7 +27,7 @@ export default function DigitizationPage() {
           <h1>Digitization</h1>
         </div>
         <Breadcrumb className="bc-content">
-          <Breadcrumb.Item as={Link} href={`/`} className="bc-non-active">
+          <Breadcrumb.Item href="/" className="bc-non-active">
             Home
           </Breadcrumb.Item>
           <Breadcrumb.Item active className="bc-active">

@@ -10,12 +10,15 @@ import WbFooter from "../components/WbFooter";
 import { useState } from "react";
 import { motion } from "motion/react";
 import { FaPhoneVolume } from "react-icons/fa6";
-import Link from "next/link";
 // import { useServerLink } from "../context/server.context";
 
 export default function ContactPage() {
   useEffect(() => {
-    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+    const isBrowser = typeof window !== "undefined";
+
+    if (isBrowser) {
+      window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+    }
   }, []); // Runs only once when the component mounts
 
   const [isMapLoading, setIsMapLoading] = useState(true);
@@ -33,7 +36,7 @@ export default function ContactPage() {
           <h1>Contact Us</h1>
         </div>
         <Breadcrumb className="bc-content">
-          <Breadcrumb.Item as={Link} href={`/`} className="bc-non-active">
+          <Breadcrumb.Item href="/" className="bc-non-active">
             Home
           </Breadcrumb.Item>
           <Breadcrumb.Item active className="bc-active">

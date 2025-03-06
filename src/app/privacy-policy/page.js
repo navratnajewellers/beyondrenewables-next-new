@@ -4,7 +4,6 @@ import { Breadcrumb } from "rsuite";
 import ScrollPage from "../components/ScrollPage";
 import WbHeader from "../components/WbHeader";
 import WbFooter from "../components/WbFooter";
-import Link from "next/link";
 import { useEffect } from "react";
 // import { useServerLink } from "../context/server.context";
 
@@ -26,7 +25,7 @@ export default function PrivacyPolicyPage() {
           <h1>Privacy Policy</h1>
         </div>
         <Breadcrumb className="bc-content">
-          <Breadcrumb.Item as={Link} href={`/`} className="bc-non-active">
+          <Breadcrumb.Item href="/" className="bc-non-active">
             Home
           </Breadcrumb.Item>
           <Breadcrumb.Item active className="bc-active">
