@@ -13,7 +13,7 @@ const SolarBlog = () => {
           <div className="imageWrapper blog-cover-img ">
             <img src={`/images/blog-1.jpg`} alt="blog-1" />
           </div>
-          <a href={`/solar-panel-waste`}>
+          <a href={`/blog/solar-panel-waste`}>
             <h4 className="blog-heading">
               Solar Panel Waste: Numbers and Nuisance
             </h4>
@@ -32,7 +32,7 @@ const SolarBlog = () => {
           <div className="imageWrapper blog-cover-img ">
             <img src={`/images/blog-2.jpg`} alt="blog-2" />
           </div>
-          <a href={`/solar-panel-recyling`} className="blog2-content">
+          <a href={`/blog/solar-panel-recyling`} className="blog2-content">
             <h4 className="blog-heading">
               Solar Panel Recyling: Perfecting the Path to a Circular Future
             </h4>
