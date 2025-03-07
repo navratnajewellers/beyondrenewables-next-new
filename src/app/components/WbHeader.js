@@ -6,11 +6,12 @@ import "../styles/header.css";
 // import companyLogo from "/images/logo-33_2.png";
 // import mobileCompanyLogo from "/images/logo-1.png";
 import MenuIcon from "@rsuite/icons/Menu";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { FaPlus, FaMinus } from "react-icons/fa";
 import AnimatedText4 from "./AnimatedText4";
 
-const WbHeader = () => {
+// const WbHeader = () => {
+export default function WbHeader() {
   const [isMobile] = useMediaQuery("(max-width: 900px)");
 
   const [isOpen, setIsOpen] = useState(false);
@@ -18,6 +19,14 @@ const WbHeader = () => {
   const [open, setOpen] = useState(false);
 
   // console.log("is on Mobile device", isMobile);
+
+  const [isClient, setIsClient] = useState(false);
+
+  useEffect(() => {
+    setIsClient(true);
+
+    return () => {};
+  }, []);
 
   //Desktop Header
   const DesktopHeader = () => {
@@ -115,7 +124,7 @@ const WbHeader = () => {
     );
   };
 
-  return (
+  return isClient ? (
     <div>
       {isMobile ? <MobileHeader /> : <DesktopHeader />}
       <div>
@@ -178,7 +187,7 @@ const WbHeader = () => {
         </Drawer>
       </div>
     </div>
+  ) : (
+    <div>Loading...</div>
   );
-};
-
-export default WbHeader;
+}
