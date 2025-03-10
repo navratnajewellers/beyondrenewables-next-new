@@ -2,10 +2,8 @@
 User-agent: *
 Allow: /
 
-# *
-User-agent: *
-Disallow: /admin
-Disallow: /dashboard
-
 # Host
 Host: https://beyondrenewables.in
+
+# Sitemaps
+Sitemap: https://beyondrenewables.in/sitemap.xml
