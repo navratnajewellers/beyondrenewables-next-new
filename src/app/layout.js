@@ -3,6 +3,7 @@ import { Geist, Geist_Mono, Raleway } from "next/font/google";
 import "rsuite/dist/rsuite.min.css";
 import "./globals.css";
 import Script from "next/script";
+import PageLoader from "./components/PageLoader";
 
 const raleway = Raleway({
   subsets: ["latin"],
@@ -57,7 +58,7 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${raleway.className} $ antialiased`}
       >
-        {children}
+        <PageLoader>{children}</PageLoader>
       </body>
     </html>
   );
