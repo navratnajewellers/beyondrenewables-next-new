@@ -106,7 +106,7 @@ export default function Home() {
                           recycling process available. This innovative approach
                           sets us apart, ensuring maximum recovery of
                         </motion.p>
-                        <a href="#">Load More</a>
+                        <a href="/solar-recycling">Load More</a>
                       </motion.div>
                     </div>
                   </Col>
@@ -154,7 +154,7 @@ export default function Home() {
                           precision, and ensuring all components are sustainably
                           managed.
                         </motion.p>
-                        <a href="#">Load More</a>
+                        <a href="/decommissioning">Load More</a>
                       </motion.div>
                     </div>
                   </Col>
@@ -204,7 +204,7 @@ export default function Home() {
                           regarding efficiency, panel aging, and energy
                           generation.
                         </motion.p>
-                        <a href="#">Load More</a>
+                        <a href="/digitization">Load More</a>
                       </motion.div>
                     </div>
                   </Col>

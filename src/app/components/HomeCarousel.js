@@ -28,31 +28,37 @@ const HomeCarousel = () => {
       id: 1,
       img: `/images/1.jpg`,
       text: "Glass Cutllets",
+      link: "/product",
     },
     {
       id: 2,
       img: `/images/2.jpg`,
       text: "Aluminium",
+      link: "/product",
     },
     {
       id: 3,
       img: `/images/3.jpg`,
       text: "Copper",
+      link: "/product",
     },
     {
       id: 4,
       img: `/images/4.jpg`,
       text: "Silicon",
+      link: "/product",
     },
     {
       id: 5,
       img: `/images/5.jpg`,
       text: "Silver",
+      link: "/product",
     },
     {
       id: 6,
       img: `/images/6.jpg`,
       text: "Plastic Pyrolysis Oil",
+      link: "/product",
     },
   ];
 
@@ -66,7 +72,7 @@ const HomeCarousel = () => {
             className="carousel-img-container"
           >
             <a
-              href="#"
+              href={product.link}
               className={`carousel-link${product.id} relative overflow-hidden group `}
             >
               <img
