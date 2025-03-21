@@ -64,3 +64,25 @@
     padding-left: 15px;
   }
 }
+
+/* tablet devices */
+@media screen and (min-width: 640px) and (max-width: 940px) {
+  .sr-sec1-img-container {
+    height: 82vh;
+  }
+}
+
+/* ipad pro */
+@media screen and (min-width: 940px) and (max-width: 1050px) {
+  .sr-sec1-img-container {
+    height: 58vh;
+  }
+
+  .sr-section1-container {
+    min-height: auto;
+  }
+}
+
+/* ipad mini */
+@media screen and (min-width: 640px) and (max-width: 790px) {
+}

@@ -326,3 +326,11 @@
   justify-content: center;
   align-items: center;
 }
+
+/* tablet devices */
+@media screen and (min-width: 640px) and (max-width: 940px) {
+  .m-h-logo {
+    width: 60%;
+    height: 20px;
+  }
+}

@@ -115,7 +115,7 @@ export default function DecommissioningPage() {
           whileInView={{ opacity: 1, translateY: 0 }}
           transition={{ duration: 0.6, delay: 0.3 }}
         >
-          <Col xs={24} sm={24} md={8} lg={8} className="sd-row4-container">
+          <Col xs={24} sm={24} md={12} lg={8} className="sd-row4-container">
             <div className="sd-row4-content">
               <h4 className="main-color">Comprehensive Site Assessments</h4>
               <p className="main-para-col">
@@ -127,7 +127,7 @@ export default function DecommissioningPage() {
               </p>
             </div>
           </Col>
-          <Col xs={24} sm={24} md={8} lg={8} className="sd-row4-container">
+          <Col xs={24} sm={24} md={12} lg={8} className="sd-row4-container">
             <div className="sd-row4-content">
               <h4 className="main-color">Customized Decommissioning Plans</h4>
               <p className="main-para-col">
@@ -140,7 +140,7 @@ export default function DecommissioningPage() {
               </p>
             </div>
           </Col>
-          <Col xs={24} sm={24} md={8} lg={8} className="sd-row4-container">
+          <Col xs={24} sm={24} md={12} lg={8} className="sd-row4-container">
             <div className="sd-row4-content">
               <h4 className="main-color">
                 Efficient Transportation and Handling

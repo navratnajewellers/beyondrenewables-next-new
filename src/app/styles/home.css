@@ -577,3 +577,66 @@
     padding: 75px 7%;
   }
 }
+
+/* tablet devices */
+@media screen and (min-width: 640px) and (max-width: 940px) {
+  .home-section-2,
+  .home-section5,
+  .home-section6,
+  .home-section7 {
+    min-height: 50vh;
+  }
+
+  .home-section8 {
+    min-height: auto;
+  }
+
+  .recycling-img1 {
+    height: 320px;
+    width: 260px;
+  }
+
+  .recycling-img2 {
+    right: 2%;
+  }
+
+  .recycling-img3 {
+    right: 2%;
+    top: 50px;
+  }
+}
+
+/* ipad pro */
+@media screen and (min-width: 940px) and (max-width: 1050px) {
+  .home-section-2,
+  .home-section5,
+  .home-section6,
+  .home-section7 {
+    min-height: 50vh;
+  }
+
+  .home-section8 {
+    min-height: auto;
+  }
+
+  .recycling-img1 {
+    height: 340px;
+    width: 310px;
+  }
+
+  .recycling-img2 {
+    right: 12%;
+  }
+
+  .recycling-img3 {
+    right: 9%;
+    top: 70px;
+  }
+}
+
+/* ipad mini */
+@media screen and (min-width: 640px) and (max-width: 790px) {
+  .recycling-img3 {
+    right: -6%;
+  }
+}

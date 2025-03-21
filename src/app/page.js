@@ -4,7 +4,7 @@
 import WbHeader from "./components/WbHeader";
 // import { useServerLink } from "../context/server.context";
 import "./styles/home.css";
-import { Accordion, Col, Divider, Row } from "rsuite";
+import { Accordion, Col, Divider, Row, useMediaQuery } from "rsuite";
 import { motion } from "motion/react";
 import HomeCarousel from "./components/HomeCarousel";
 import PartnerLogoCarousel from "./components/PartnerLogoCarousel";
@@ -15,6 +15,8 @@ import ScrollPage from "./components/ScrollPage";
 import ReadMore from "./components/ReadMore";
 
 export default function Home() {
+  const [isMobile] = useMediaQuery("(max-width: 1050px)");
+
   return (
     <div>
       <div>
@@ -92,7 +94,7 @@ export default function Home() {
                       </div>
                     </motion.div>
                   </Col> */}
-                  <Col xs={24} sm={24} md={14} lg={14}>
+                  <Col xs={24} sm={24} md={18} lg={14}>
                     <div className="sec2-panel-content">
                       <motion.div
                         initial={{ opacity: 0, translateY: 35 }}
@@ -139,7 +141,7 @@ export default function Home() {
                       </div>
                     </motion.div>
                   </Col> */}
-                  <Col xs={24} sm={24} md={14} lg={14}>
+                  <Col xs={24} sm={24} md={18} lg={14}>
                     <div className="sec2-panel-content">
                       <motion.div
                         initial={{ opacity: 0, translateY: 35 }}
@@ -189,7 +191,7 @@ export default function Home() {
                       </div>
                     </motion.div>
                   </Col> */}
-                  <Col xs={24} sm={24} md={14} lg={14}>
+                  <Col xs={24} sm={24} md={18} lg={14}>
                     <div className="sec2-panel-content">
                       <motion.div
                         initial={{ opacity: 0, translateY: 35 }}
@@ -324,7 +326,7 @@ export default function Home() {
                 continuously seek new opportunities to expand and impact various
                 sectors, contributing to a sustainable future for generations to
                 come.`}
-                maxLength={1050}
+                maxLength={isMobile ? 657 : 1050}
               />
               {/* <p>
                 Beyond Renewables is more than just a startup; it&apos;s a
