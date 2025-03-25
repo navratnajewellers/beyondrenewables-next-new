@@ -26,10 +26,14 @@ const PartnerLogoCarousel = () => {
           src={img}
           alt={`Logo ${index}`}
           style={{
-            marginRight: "40px",
-            marginLeft: "40px",
-            height: "150px",
-            width: "250px",
+            // marginRight: "40px",
+            // marginLeft: "40px",
+            // height: "150px",
+            // width: "250px",
+            marginRight: "60px",
+            marginLeft: "60px",
+            height: "90px",
+            width: "210px",
           }}
         />
       ))}

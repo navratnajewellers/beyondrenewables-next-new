@@ -95,7 +95,9 @@
 
 /* tablet devices */
 @media screen and (min-width: 640px) and (max-width: 1050px) {
-  .contact-section1-container {
-    min-height: 75vh;
+  .contact-section1-container,
+  .contact-section2-container {
+    /* min-height: 75vh; */
+    min-height: auto;
   }
 }

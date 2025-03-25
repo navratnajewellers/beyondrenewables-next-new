@@ -584,7 +584,8 @@
   .home-section5,
   .home-section6,
   .home-section7 {
-    min-height: 50vh;
+    min-height: auto;
+    padding-bottom: 115px;
   }
 
   .home-section8 {
@@ -612,7 +613,8 @@
   .home-section5,
   .home-section6,
   .home-section7 {
-    min-height: 50vh;
+    min-height: auto;
+    padding-bottom: 115px;
   }
 
   .home-section8 {
