@@ -30,7 +30,7 @@ export default function Home() {
           <div className="home-section1-bg-img">
             <video
               className="home-sec1-bg-video"
-              src={`/videos/homeVideo.MP4`}
+              src={`/videos/homeVideo.mp4`}
               autoPlay
               muted
               loop
