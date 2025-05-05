@@ -125,7 +125,7 @@ const WbFooter = () => {
               <h4>Get In Touch</h4>
               <ul className="sec2-ul">
                 <li>
-                  <a href="tel:+918192804780">Manhar Dixit: 8192804780</a>
+                  <a href="tel:+919319088139">Manhar Dixit: 9319088139</a>
                 </li>
                 <li>
                   <a href="tel:+918340325075"> Vedant Taneja: 8340325075 </a>
