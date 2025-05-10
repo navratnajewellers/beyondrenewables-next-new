@@ -308,7 +308,7 @@ export default function Home() {
               <h4 className="main-color">About Us</h4>
               <h2>Innovators in Renewables Recycling</h2>
               <ReadMore
-                text={`Beyond Renewables is more than just a startup; it&apos;s a
+                text={`Beyond Renewables is more than just a startup; it is a
                 movement towards a sustainable world. Our mission is to
                 revolutionize recycling and waste management, transforming how
                 industries and individuals perceive and handle waste. We believe
