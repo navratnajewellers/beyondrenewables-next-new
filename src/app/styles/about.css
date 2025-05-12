@@ -69,8 +69,8 @@
 
 .about-profile-container .imageWrapper {
   /* border: solid 1px red; */
-  width: 350px;
-  height: 400px;
+  width: 310px;
+  height: 360px;
   border-radius: 20px;
   overflow: hidden;
 }
@@ -84,7 +84,7 @@
 }
 
 .about-profile-content {
-  background-color: #ffffff;
+  background-color: rgb(192, 192, 192);
   position: absolute;
   bottom: 15px;
   padding: 10px 25px;
@@ -108,7 +108,8 @@
 }
 
 .about-profile-content h5 {
-  font-family: "Times New Roman", Times, serif;
+  /* font-family: "Times New Roman", Times, serif; */
+  color: #ffffff;
 }
 
 /* tablet devices */

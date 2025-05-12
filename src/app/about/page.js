@@ -94,20 +94,21 @@ export default function About() {
           <h4 className="main-color">Our Team</h4>
           <h2>Our Best Experts</h2>
         </motion.div>
-        <motion.div
-          className="about-sec2-content"
-          initial={{ opacity: 0, translateY: 25 }}
-          whileInView={{ opacity: 1, translateY: 0 }}
-          transition={{ duration: 0.6, delay: 0.3 }}
-        >
-          <div className="about-profile-container">
+        <div className="about-sec2-content">
+          <motion.div
+            initial={{ opacity: 0, x: -25 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.6, delay: 0.3 }}
+            viewport={{ amount: 0.5 }}
+            className="about-profile-container"
+          >
             <div className="imageWrapper">
               <img src="/images/founder1.jpg" alt="profileImage1" />
             </div>
             <div className="about-profile-content">
               <div>
                 <h5>Vedant</h5>
-                <p className=" text-gray-400 ">Founder</p>
+                <p className=" text-gray-900 ">Founder</p>
               </div>
               <div className="profile-link-logo">
                 <a href="#">
@@ -115,15 +116,21 @@ export default function About() {
                 </a>
               </div>
             </div>
-          </div>
-          <div className="about-profile-container">
+          </motion.div>
+          <motion.div
+            initial={{ opacity: 0, x: 25 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.6, delay: 0.3 }}
+            viewport={{ amount: 0.5 }}
+            className="about-profile-container"
+          >
             <div className="imageWrapper">
               <img src="/images/founder2.png" alt="profileImage2" />
             </div>
             <div className="about-profile-content">
               <div>
                 <h5>Manhar</h5>
-                <p className=" text-gray-400 ">Founder</p>
+                <p className=" text-gray-900 ">Founder</p>
               </div>
               <div className="profile-link-logo">
                 <a href="#">
@@ -131,8 +138,8 @@ export default function About() {
                 </a>
               </div>
             </div>
-          </div>
-        </motion.div>
+          </motion.div>
+        </div>
       </div>
       <div>
         <WbFooter />
