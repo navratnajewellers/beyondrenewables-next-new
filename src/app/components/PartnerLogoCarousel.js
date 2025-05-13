@@ -11,13 +11,13 @@ const PartnerLogoCarousel = () => {
     `/images/Reslink.png`,
     `/images/companyLogo2.png`,
     `/images/companyLogo4.png`,
-    `/images/iit-mandi.png`,
+    `/images/iit-mandi2.png`,
     `/images/logo1.png`,
     `/images/logo3.png`,
     `/images/Reslink.png`,
     `/images/companyLogo2.png`,
     `/images/companyLogo4.png`,
-    `/images/iit-mandi.png`,
+    `/images/iit-mandi2.png`,
   ];
 
   return (
