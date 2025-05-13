@@ -388,8 +388,7 @@ export default function Home() {
             whileInView={{ opacity: 1, translateY: 0 }}
             transition={{ duration: 0.6, delay: 0.3 }}
           >
-            <h4 className="main-color">Partners</h4>
-            <h2>Our Partners</h2>
+            <h2 className=" py-9 ">Supported By</h2>
           </motion.div>
           <motion.div
             className=" flex justify-center "

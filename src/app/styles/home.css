@@ -569,6 +569,10 @@
     min-height: 80vh;
   }
 
+  .home-section6 {
+    min-height: 55vh;
+  }
+
   .blog-container {
     padding: 0 15px;
   }

@@ -91,8 +91,7 @@ export default function About() {
           whileInView={{ opacity: 1, translateY: 0 }}
           transition={{ duration: 0.6, delay: 0.3 }}
         >
-          <h4 className="main-color">Our Team</h4>
-          <h2>Our Best Experts</h2>
+          <h2 className="main-color">Our Team</h2>
         </motion.div>
         <div className="about-sec2-content">
           <motion.div
