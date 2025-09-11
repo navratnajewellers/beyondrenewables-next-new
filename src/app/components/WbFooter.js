@@ -137,9 +137,12 @@ const WbFooter = () => {
                 </li>
                 <li>
                   <a href="#">
-                    WeWork Eldeco Centre, Block A, Shivalik Colony, Malviya
-                    Nagar, Delhi, New Delhi, Delhi 110017
+                    Shop no. 04, Gayatri Aura, Gh-11, Sector 1, I.A, Surajpur,
+                    Noida, Bisrakh Jalalpur, Uttar Pradesh 201306
                   </a>
+                </li>
+                <li>
+                  <a href="#">CIN Number: U38210UP2025PTC227329</a>
                 </li>
               </ul>
             </div>

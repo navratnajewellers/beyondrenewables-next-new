@@ -27,40 +27,40 @@ module.exports = {
 
   // Manually define static paths since "output: export" doesn't work dynamically
   additionalPaths: async (config) => [
-    { loc: "/", lastMod: new Date().toISOString(), priority: 1.0 },
-    { loc: "/about", lastMod: new Date().toISOString(), priority: 0.8 },
-    { loc: "/contact", lastMod: new Date().toISOString(), priority: 0.7 },
-    { loc: "/product", lastMod: new Date().toISOString(), priority: 0.7 },
+    { loc: "/", lastmod: new Date().toISOString(), priority: 1.0 },
+    { loc: "/about", lastmod: new Date().toISOString(), priority: 0.8 },
+    { loc: "/contact", lastmod: new Date().toISOString(), priority: 0.7 },
+    { loc: "/product", lastmod: new Date().toISOString(), priority: 0.7 },
     {
       loc: "/decommissioning",
-      lastMod: new Date().toISOString(),
+      lastmod: new Date().toISOString(),
       priority: 0.7,
     },
-    { loc: "/digitization", lastMod: new Date().toISOString(), priority: 0.7 },
+    { loc: "/digitization", lastmod: new Date().toISOString(), priority: 0.7 },
     {
       loc: "/solar-recycling",
-      lastMod: new Date().toISOString(),
+      lastmod: new Date().toISOString(),
       priority: 0.7,
     },
-    { loc: "/blog", lastMod: new Date().toISOString(), priority: 0.6 },
+    { loc: "/blog", lastmod: new Date().toISOString(), priority: 0.6 },
     {
       loc: "/blog/solar-panel-recyling",
-      lastMod: new Date().toISOString(),
+      lastmod: new Date().toISOString(),
       priority: 0.6,
     },
     {
       loc: "/blog/solar-panel-waste",
-      lastMod: new Date().toISOString(),
+      lastmod: new Date().toISOString(),
       priority: 0.6,
     },
     {
       loc: "/privacy-policy",
-      lastMod: new Date().toISOString(),
+      lastmod: new Date().toISOString(),
       priority: 0.3,
     },
     {
       loc: "/term-condition",
-      lastMod: new Date().toISOString(),
+      lastmod: new Date().toISOString(),
       priority: 0.3,
     },
   ],

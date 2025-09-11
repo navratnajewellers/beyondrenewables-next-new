@@ -9,7 +9,8 @@ import ContactForm from "../components/ContactForm";
 import WbFooter from "../components/WbFooter";
 import { useState } from "react";
 import { motion } from "motion/react";
-import { FaPhoneVolume } from "react-icons/fa6";
+import { FaPhoneVolume, FaLocationDot } from "react-icons/fa6";
+import { MdEmail } from "react-icons/md";
 // import { useServerLink } from "../context/server.context";
 
 export default function ContactPage() {
@@ -75,7 +76,7 @@ export default function ContactPage() {
           </div>
           <div className="ct-sec1-content-detail">
             <div className="ct-sec1-content-image">
-              <FaPhoneVolume />
+              <MdEmail />
             </div>
             <div>
               <p>Email Address :</p>
@@ -91,14 +92,14 @@ export default function ContactPage() {
           </div>
           <div className="ct-sec1-content-detail">
             <div className="ct-sec1-content-image">
-              <FaPhoneVolume />
+              <FaLocationDot />
             </div>
             <div>
               <p>Location :</p>
               <h5>
                 <a href="#" className="main-color">
-                  WeWork Eldeco Centre, Block A, Shivalik Colony, Malviya Nagar,
-                  Delhi, New Delhi, Delhi 110017
+                  Shop no. 04, Gayatri Aura, Gh-11, Sector 1, I.A, Surajpur,
+                  Noida, Bisrakh Jalalpur, Uttar Pradesh 201306
                 </a>
               </h5>
             </div>
@@ -146,7 +147,7 @@ export default function ContactPage() {
                 frameBorder="0"
                 style={{ border: 0 }}
                 // src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3504.7365384940667!2d77.24790428885501!3d28.547637699999985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce340ab79b197%3A0x3720d15cd5fb9b1f!2sHemkunt%20Tower!5e0!3m2!1sen!2sin!4v1721993932794!5m2!1sen!2sin"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3505.3619707349953!2d77.20283947408963!3d28.52883788878457!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce1fd1caede81%3A0xfb65c4866f92da37!2sWeWork!5e0!3m2!1sen!2sin!4v1742474630657!5m2!1sen!2sin"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56078.19266213884!2d77.42748227300864!3d28.543114783426766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cef78383ea11d%3A0x6ad1a916e3d74ed7!2sBeyond%20Renewables%20%26%20Recycling%20Private%20Limited!5e0!3m2!1sen!2sin!4v1757574549277!5m2!1sen!2sin"
                 allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"

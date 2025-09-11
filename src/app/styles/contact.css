@@ -29,7 +29,7 @@
   padding-left: 25px;
   border-radius: 12px;
   width: 320px;
-  height: 200px;
+  min-height: 200px;
   margin-bottom: 25px;
   display: flex;
   justify-content: center;
