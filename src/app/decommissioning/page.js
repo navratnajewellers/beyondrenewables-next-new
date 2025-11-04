@@ -185,33 +185,6 @@ export default function DecommissioningPage() {
                   infrastructure.
                 </p>
               </li>
-              <li>
-                <h4 className="main-color">Safe Disconnection and Removal:</h4>
-                <p className="main-para-col">
-                  We ensure that all panels are safely disconnected from the
-                  grid and removed from their mounting structures without
-                  causing damage to the environment or the remaining
-                  infrastructure.
-                </p>
-              </li>
-              <li>
-                <h4 className="main-color">Safe Disconnection and Removal:</h4>
-                <p className="main-para-col">
-                  We ensure that all panels are safely disconnected from the
-                  grid and removed from their mounting structures without
-                  causing damage to the environment or the remaining
-                  infrastructure.
-                </p>
-              </li>
-              <li>
-                <h4 className="main-color">Safe Disconnection and Removal:</h4>
-                <p className="main-para-col">
-                  We ensure that all panels are safely disconnected from the
-                  grid and removed from their mounting structures without
-                  causing damage to the environment or the remaining
-                  infrastructure.
-                </p>
-              </li>
             </ul>
           </div>
           <div className=" mt-4 ">
